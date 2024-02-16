@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using MoreMountains.Tools;
 
 public class InicioBotones : MonoBehaviour
 {
     public void BotonJugar()
     {
-        SceneManager.LoadScene("Nivel 1");
+        MMSceneLoadingManager.LoadScene("Nivel 1");
     }
 
     public void BotonSalir()
@@ -17,6 +18,6 @@ public class InicioBotones : MonoBehaviour
 
     public void BotonInicio()
     {
-        SceneManager.LoadScene("Inicio");
+        MMSceneLoadingManager.LoadScene("Inicio");
     }
 }
