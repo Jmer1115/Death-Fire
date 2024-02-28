@@ -25,7 +25,17 @@ public class InicioBotones : MonoBehaviour
 
     public void BotonInstrucciones()
     {
-        MMSceneLoadingManager.LoadScene("Instrucciones");
+        SceneManager.LoadScene("Instrucciones");
+    }
+
+    public void BotonCreditos()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
+
+    public void BotonInicioSinCarga()
+    {
+        SceneManager.LoadScene("Inicio");
     }
 
     public void AbrirConfirmacion()
