@@ -65,15 +65,17 @@ namespace MoreMountains.CorgiEngine
 			if (_timer < 0)
 			{
 				_newPosition = new Vector2(0, -FallSpeed * Time.deltaTime);
-				                           
-				transform.Translate(_newPosition,Space.World);
+
+                transform.Translate(_newPosition,Space.World);
 				
 				if (transform.position.y < _bounds.min.y)
 				{
 					DisableFallingPlatform ();
 				}
-			}
-		}
+
+                gameObject.SetActive(false);
+            }
+        }
 
 		/// <summary>
 		/// Disables the falling platform. We're not destroying it, so we can revive it on respawn

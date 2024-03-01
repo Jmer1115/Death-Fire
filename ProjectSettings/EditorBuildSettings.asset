@@ -228,7 +228,7 @@ EditorBuildSettings:
     path: Assets/Proyecto Plataformer/Escenas/Instrucciones.unity
     guid: 03c4ce66b0e27da45822fc5c4695cfaf
   - enabled: 1
-    path: Assets/Proyecto Plataformer/Escenas/MinimalLevel.unity
+    path: Assets/Proyecto Plataformer/Escenas/Nivel 2.unity
     guid: b60caab728cc21c488b4af55d93c7bb0
   - enabled: 1
     path: Assets/Proyecto Plataformer/Escenas/Perdio.unity
