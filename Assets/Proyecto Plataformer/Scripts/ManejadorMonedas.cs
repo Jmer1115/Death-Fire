@@ -7,6 +7,15 @@ using UnityEngine;
 public class ManejadorMonedas : MonoBehaviour, MMEventListener<PickableItemEvent>
 {
     private int monedas_recolectadas;
+    [SerializeField] GameObject exitDoor;
+
+    public void Start()
+    {
+        if(exitDoor != null)
+        {
+            exitDoor.SetActive(false);
+        }
+    }
 
     void OnEnable()
     {
@@ -22,10 +31,14 @@ public class ManejadorMonedas : MonoBehaviour, MMEventListener<PickableItemEvent
     {
         monedas_recolectadas++;
 
-        if(monedas_recolectadas == 5)
+        if(monedas_recolectadas >= 4)
         {
-            Debug.Log("Sexo Anal");
+            ShowDoor();
         }
     }
 
+    public void ShowDoor()
+    {
+        exitDoor.SetActive(true);
+    }
 }
