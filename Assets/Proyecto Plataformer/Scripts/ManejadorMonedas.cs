@@ -7,6 +7,7 @@ using UnityEngine;
 public class ManejadorMonedas : MonoBehaviour, MMEventListener<PickableItemEvent>
 {
     private int monedas_recolectadas;
+
     [SerializeField] GameObject exitDoor;
 
     public void Start()
@@ -31,7 +32,7 @@ public class ManejadorMonedas : MonoBehaviour, MMEventListener<PickableItemEvent
     {
         monedas_recolectadas++;
 
-        if(monedas_recolectadas >= 4)
+        if(e.PickedItem.name == "LLave" || e.PickedItem.name == "EasterEgg")
         {
             ShowDoor();
         }
