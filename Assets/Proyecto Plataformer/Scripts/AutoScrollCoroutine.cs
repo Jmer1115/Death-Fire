@@ -1,21 +1,35 @@
+using MoreMountains.CorgiEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AutoScrollCoroutine : MonoBehaviour
 {
     public float scrollSpeed = 2f;
     public Vector2 directionBounds = new Vector2(1, 1);
-    public float resetPosition = -10f;
     public float startDelay = 2f;
 
-    private Vector3 startPosition;
+    static private Vector3 startPosition;
+    static private Vector3 endPosition = new Vector3(129f, 52f, 0);
+
+    private GameObject player;
+    private Health salud_personaje;
+
+    private bool terminarAutoScroll = false;
 
     void Start()
     {
-        startPosition = transform.position;
+        startPosition = new Vector3(-14.1f, 4.51f, 0f);
 
         StartCoroutine(StartDelay());
+    }
+
+    public Health getHealth() 
+    {
+        player = LevelManager.Instance.Players[0].gameObject;
+
+        return player.GetComponent<Health>();
     }
 
     IEnumerator StartDelay()
@@ -27,9 +41,25 @@ public class AutoScrollCoroutine : MonoBehaviour
 
     IEnumerator MoveLevelBounds()
     {
-        
-        while (true)
+        salud_personaje = getHealth();
+
+        while (terminarAutoScroll == false)
         {
+            if (salud_personaje.CurrentHealth <= 0f)
+            {
+                SceneManager.LoadScene("Nivel 3");
+                break;
+            }
+            if (transform.position.y > 52)
+            {
+                terminarAutoScroll = true;
+                directionBounds = new Vector2(0, 0);
+
+                transform.position += (Vector3)directionBounds * 1 * Time.deltaTime;
+
+                break;
+            }
+
             transform.position += (Vector3)directionBounds * scrollSpeed * Time.deltaTime;
 
             yield return null;
