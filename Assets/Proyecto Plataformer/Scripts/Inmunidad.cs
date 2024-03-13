@@ -7,7 +7,7 @@ using UnityEngine;
 public class Inmunidad : MonoBehaviour, MMEventListener<PickableItemEvent>
 {
     [SerializeField] 
-    private float timepo_inmunidad = 10000;
+    private float timepo_inmunidad = 15;
     private GameObject _fadeObject;
     private Health salud_personaje;
 

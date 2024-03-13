@@ -8,10 +8,9 @@ public class AutoScrollCoroutine : MonoBehaviour
 {
     public float scrollSpeed = 2f;
     public Vector2 directionBounds = new Vector2(1, 1);
-    public float startDelay = 2f;
+    public float startDelay = 4f;
 
     static private Vector3 startPosition;
-    static private Vector3 endPosition = new Vector3(129f, 52f, 0);
 
     private GameObject player;
     private Health salud_personaje;
