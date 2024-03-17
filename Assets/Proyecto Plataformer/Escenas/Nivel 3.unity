@@ -2876,7 +2876,7 @@ GameObject:
   - component: {fileID: 1395641262}
   - component: {fileID: 1395641264}
   - component: {fileID: 1395641263}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: lava-platforms_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2979,7 +2979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   MinDamageCaused: 1000
   MaxDamageCaused: 1000
   TypedDamages: []
