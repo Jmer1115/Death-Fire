@@ -17,12 +17,14 @@ public class CambiarNivel : MonoBehaviour
     {
         if(actualScene == 5)
         {
+            MMAchievementManager.UnlockAchievement("Going Further");
             MMSceneLoadingManager.LoadScene("Nivel 2"); 
         }
 
         if(actualScene == 6)
         {
             MMSceneLoadingManager.LoadScene("Nivel 3"); 
+            MMAchievementManager.UnlockAchievement("Run Bitch");
         }
         
     }

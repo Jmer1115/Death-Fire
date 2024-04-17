@@ -32,6 +32,11 @@ public class ManejadorMonedas : MonoBehaviour, MMEventListener<PickableItemEvent
     {
         monedas_recolectadas++;
 
+        if(monedas_recolectadas == 1)
+        {
+            MMAchievementManager.UnlockAchievement("First Coin");
+        }
+
         if(e.PickedItem.name == "LLave" || e.PickedItem.name == "EasterEgg")
         {
             ShowDoor();
