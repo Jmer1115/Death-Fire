@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4765150795434796005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 11642117432712443, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_Name
+      value: Malo Maloso Variant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163778652430916928, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.2099056
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759132450128253355, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911556236236490843, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3429470643574169346, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: InitialWeapon
+      value: 
+      objectReference: {fileID: 114000010078180980, guid: ffadbc355b76b47cfb0de0739e1d09b1,
+        type: 3}
+    - target: {fileID: 7205028305033708083, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: CharacterBrain
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516351777570931743, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: States.Array.data[1].StateName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516351777570931743, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: States.Array.data[1].Actions.array.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516351777570931743, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[0].Decision
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516351777570931743, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: States.Array.data[1].Transitions.array.Array.data[0].Decision
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516351777570931743, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[0].TrueState
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516351777570931743, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: States.Array.data[1].Transitions.array.Array.data[0].TrueState
+      value: Shoot
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 633469065474042390, guid: d24de32195c4d1e409240fb762e3a78e, type: 3}
+    - {fileID: 274521289146871312, guid: d24de32195c4d1e409240fb762e3a78e, type: 3}
+    - {fileID: 8516351777570931743, guid: d24de32195c4d1e409240fb762e3a78e, type: 3}
+    - {fileID: 7514900296375615072, guid: d24de32195c4d1e409240fb762e3a78e, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 11642117432712443, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2998549670567797264}
+  m_SourcePrefab: {fileID: 100100000, guid: d24de32195c4d1e409240fb762e3a78e, type: 3}
+--- !u!1 &4758170754943368990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 11642117432712443, guid: d24de32195c4d1e409240fb762e3a78e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4765150795434796005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2998549670567797264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758170754943368990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2722c8e06c7fe46bbbd264ab655e2c4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShootDistance: 100
+  RaycastOriginOffset: {x: 0, y: 0}
+  TargetLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
