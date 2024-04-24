@@ -246,6 +246,9 @@ EditorBuildSettings:
     path: Assets/Proyecto Plataformer/Escenas/Final.unity
     guid: 6b5738b6dadd4ad409188050bbafef51
   - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Logros.unity
+    guid: d6ed8a023c5e39a478a7bc1dd2d8d1e6
+  - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
   m_configObjects: {}

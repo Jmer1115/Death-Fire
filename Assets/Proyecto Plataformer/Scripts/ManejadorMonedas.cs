@@ -40,6 +40,10 @@ public class ManejadorMonedas : MonoBehaviour, MMEventListener<PickableItemEvent
         if(e.PickedItem.name == "LLave" || e.PickedItem.name == "EasterEgg")
         {
             ShowDoor();
+
+            if (e.PickedItem.name == "EasterEgg"){
+                MMAchievementManager.UnlockAchievement("DevDoor");
+            }
         }
     }
 

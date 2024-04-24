@@ -38,6 +38,11 @@ public class InicioBotones : MonoBehaviour
         SceneManager.LoadScene("Inicio");
     }
 
+    public void BotonLogros()
+    {
+        SceneManager.LoadScene("Logros");
+    }
+
     public void AbrirConfirmacion()
     {
         quitPanel.SetActive(true);
