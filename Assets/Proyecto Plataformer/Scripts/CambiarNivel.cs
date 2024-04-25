@@ -3,32 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using MoreMountains.Tools;
 using UnityEngine.SceneManagement;
+using MoreMountains.CorgiEngine;
 
 public class CambiarNivel : MonoBehaviour
 {
     int actualScene;
+
+    [SerializeField] Timer timerLevel2;
 
     public void Start()
     {
         actualScene = SceneManager.GetActiveScene().buildIndex;
     }
 
+    private void Update()
+    {
+        Debug.Log(timerLevel2.remainingTime < 30);
+    }
+
     public void OnCambiarDeNivel()
     {
-        if(actualScene == 5)
-        {
-            MMSceneLoadingManager.LoadScene("Nivel 2"); 
-        }
+        //SceneManager.LoadScene(actualScene + 1);
+    }
 
-        if(actualScene == 6)
-        {
-            MMSceneLoadingManager.LoadScene("Nivel 3"); 
-        }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Duro");
 
-        if(actualScene == 7)
+        if (timerLevel2.remainingTime <= 30)
         {
-            MMSceneLoadingManager.LoadScene("Final"); 
+            MMAchievementManager.UnlockAchievement("Fast as F");
         }
-        
     }
 }

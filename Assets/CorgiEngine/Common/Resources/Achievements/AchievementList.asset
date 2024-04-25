@@ -103,10 +103,10 @@ MonoBehaviour:
     HiddenAchievement: 0
     UnlockedStatus: 0
     Title: Fast as F
-    Description: Complete the third level in 120s
+    Description: Complete the third level in less than 27 seconds
     Points: 50
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300000, guid: 4e62c7134af809741a0ee663cd66bdf7, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: e52bfa11b3f39434f86d68c96f6a2a39, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
