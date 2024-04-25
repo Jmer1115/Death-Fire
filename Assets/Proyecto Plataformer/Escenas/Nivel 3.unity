@@ -2667,8 +2667,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1002114722}
-  - component: {fileID: 1002114723}
   - component: {fileID: 1002114724}
+  - component: {fileID: 1002114723}
+  - component: {fileID: 1002114725}
   m_Layer: 0
   m_Name: Script
   m_TagString: cronometro
@@ -2703,7 +2704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a83ce142c366941b4dc69a84f7c7d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerLevel2: {fileID: 1999882919}
 --- !u!61 &1002114724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2749,6 +2749,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.8651276, y: 3.45615}
   m_EdgeRadius: 0
+--- !u!114 &1002114725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002114721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc40d507cff7b604dbe3468114f3d215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerLevel2: {fileID: 1999882919}
 --- !u!1001 &1019328869
 PrefabInstance:
   m_ObjectHideFlags: 0
