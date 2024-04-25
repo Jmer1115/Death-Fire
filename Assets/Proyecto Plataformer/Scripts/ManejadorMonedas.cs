@@ -35,14 +35,18 @@ public class ManejadorMonedas : MonoBehaviour, MMEventListener<PickableItemEvent
         if(monedas_recolectadas == 1)
         {
             MMAchievementManager.UnlockAchievement("First Coin");
+            MMAchievementManager.AchievementsList[0].UnlockedStatus = true;
+            MMAchievementManager.SaveAchievements();
         }
 
-        if(e.PickedItem.name == "LLave" || e.PickedItem.name == "EasterEgg")
+        if (e.PickedItem.name == "LLave" || e.PickedItem.name == "EasterEgg")
         {
             ShowDoor();
 
             if (e.PickedItem.name == "EasterEgg"){
                 MMAchievementManager.UnlockAchievement("DevDoor");
+                MMAchievementManager.AchievementsList[8].UnlockedStatus = true;
+                MMAchievementManager.SaveAchievements();
             }
         }
     }

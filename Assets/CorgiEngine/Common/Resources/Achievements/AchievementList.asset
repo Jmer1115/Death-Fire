@@ -23,7 +23,7 @@ MonoBehaviour:
     Points: 25
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: ef43fd80255afa342879946369726c7a, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: Going Further
@@ -35,7 +35,7 @@ MonoBehaviour:
     Points: 25
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: 086b608ec882b5640b206081c52f53b5, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: Run Bitch
@@ -47,7 +47,7 @@ MonoBehaviour:
     Points: 25
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: 0c7b356dc08a52a44a777659ad7e4620, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: Hitler is that you?
@@ -59,7 +59,7 @@ MonoBehaviour:
     Points: 25
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: 70ef8cfa3385e424c880e48cbc1c2cf4, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: Skill Issue
@@ -71,7 +71,7 @@ MonoBehaviour:
     Points: 10
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: 4e62c7134af809741a0ee663cd66bdf7, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: Feelin' Superior
@@ -83,7 +83,7 @@ MonoBehaviour:
     Points: 10
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: e82bcd04e0d8c1246969520da99aef44, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: The END?
@@ -94,8 +94,8 @@ MonoBehaviour:
     Description: Finish the game
     Points: 100
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300000, guid: 4e62c7134af809741a0ee663cd66bdf7, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedImage: {fileID: 21300000, guid: 98750221443fe08478f3913703edc723, type: 3}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: Fast as F
@@ -103,11 +103,11 @@ MonoBehaviour:
     HiddenAchievement: 0
     UnlockedStatus: 0
     Title: Fast as F
-    Description: Complete the third level in less than 27 seconds
+    Description: Complete the third level in less than 28 seconds
     Points: 50
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: e52bfa11b3f39434f86d68c96f6a2a39, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: DevDoor
@@ -119,18 +119,30 @@ MonoBehaviour:
     Points: 10
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: dd1d61e96c9c9034b9abb26e1348a972, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: NoHit
     AchievementType: 0
     HiddenAchievement: 0
-    UnlockedStatus: 0
+    UnlockedStatus: 1
     Title: NoHit
     Description: Pass level 1 without getting hit
     Points: 10
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300000, guid: 4e62c7134af809741a0ee663cd66bdf7, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedImage: {fileID: 21300000, guid: 5830fb9762c8a9843b51e65888d4b0f4, type: 3}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: Platino
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Platino
+    Description: Get all the achievements
+    Points: 50
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: f448855dc58f31c4493057485d08373d, type: 3}
+    UnlockedSound: {fileID: 8300000, guid: 3489c6d047a425b429729693f335c928, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0

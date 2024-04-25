@@ -11,9 +11,11 @@ public class Cronometro : MonoBehaviour
     {
         Debug.Log("Duro");
 
-        if (timerLevel2.remainingTime <= 30)
+        if (timerLevel2.remainingTime <= 28)
         {
             MMAchievementManager.UnlockAchievement("Fast as F");
+            MMAchievementManager.AchievementsList[7].UnlockedStatus = true;
+            MMAchievementManager.SaveAchievements();
         }
     }
 }

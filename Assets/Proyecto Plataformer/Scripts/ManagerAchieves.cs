@@ -21,8 +21,10 @@ public class ManagerAchieves : MonoBehaviour
         getHealth();
 
         if (other.CompareTag("Player")){
-            if (salud_personaje.CurrentHealth == salud_personaje.InitialHealth){
-            MMAchievementManager.UnlockAchievement("NoHit");
+                if (salud_personaje.CurrentHealth == salud_personaje.InitialHealth){
+                MMAchievementManager.UnlockAchievement("NoHit");
+                MMAchievementManager.AchievementsList[9].UnlockedStatus = true;
+                MMAchievementManager.SaveAchievements();
             } 
         }
     }

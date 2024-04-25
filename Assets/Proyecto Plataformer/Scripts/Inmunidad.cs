@@ -30,6 +30,8 @@ public class Inmunidad : MonoBehaviour, MMEventListener<PickableItemEvent>
         if(e.PickedItem.name == "Star")
         {
             MMAchievementManager.UnlockAchievement("Feelin' Superior");
+            MMAchievementManager.AchievementsList[5].UnlockedStatus = true;
+            MMAchievementManager.SaveAchievements();
             ControlInmunidad();
         }
     }

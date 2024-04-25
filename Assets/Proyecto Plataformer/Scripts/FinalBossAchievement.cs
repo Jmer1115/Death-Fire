@@ -24,6 +24,8 @@ public class FinalBossAchievement : MonoBehaviour
         if (bossHealth.CurrentHealth <= 0 && !won){
             won = true;
             MMAchievementManager.UnlockAchievement("The END?");
+            MMAchievementManager.AchievementsList[6].UnlockedStatus = true;
+            MMAchievementManager.SaveAchievements();
             LeanTween.moveY(ganaste.GetComponent<RectTransform>(), 0, 0).setDelay(0.5f)
             .setEase(LeanTweenType.easeInBounce);
             Invoke("VolverAlMenu", 4f);

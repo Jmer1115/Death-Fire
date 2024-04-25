@@ -13,26 +13,30 @@ public class CheckScene : MonoBehaviour
 
         if(actualScene == 3){
             MMAchievementManager.UnlockAchievement("Skill Issue");
+            MMAchievementManager.AchievementsList[4].UnlockedStatus = true;
             SaveAchivs();
         }
         if(actualScene == 6)
         {
             MMAchievementManager.UnlockAchievement("Going Further");
+            MMAchievementManager.AchievementsList[1].UnlockedStatus = true;
             SaveAchivs();
         }
         if(actualScene == 7)
         {
             MMAchievementManager.UnlockAchievement("Run Bitch");
+            MMAchievementManager.AchievementsList[2].UnlockedStatus = true;
             SaveAchivs();
         }
         if(actualScene == 8)
         {
             MMAchievementManager.UnlockAchievement("Hitler is that you?");
+            MMAchievementManager.AchievementsList[3].UnlockedStatus = true;
             SaveAchivs();
         }
     }
 
     public static void SaveAchivs() {
-        MoreMountains.Tools.MMAchievementManager.SaveAchievements();
+        MMAchievementManager.SaveAchievements();
     }
 }
