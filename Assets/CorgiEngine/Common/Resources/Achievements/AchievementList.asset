@@ -55,7 +55,7 @@ MonoBehaviour:
     HiddenAchievement: 0
     UnlockedStatus: 0
     Title: Hitler is that you?
-    Description: Defeat the final boss
+    Description: Encounter the final Boss
     Points: 25
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: 70ef8cfa3385e424c880e48cbc1c2cf4, type: 3}
