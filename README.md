@@ -46,3 +46,28 @@ La dificultad seleccionada por el usuario afecta los valores de estas variables
 ![Imagen de WhatsApp 2024-04-25 a las 22 26 43_3ca926fd](https://github.com/Jmer1115/Proyecto-/assets/109985514/c92f483b-5c06-4b36-aed9-4dee16d1952b)
 
 Otra propuesta para la dificultad, es tener diferentes escenas para las distintas dificultades y que se escoja la dificultad dependiendo de un enum/estado.
+
+# Arte
+## Logo:
+![Logo DeathFire](https://github.com/Jmer1115/Proyecto-/assets/109985514/16c4151f-d220-40fb-a242-7355047aeda9)
+
+## Diseño del Prota:
+![Personaje](https://github.com/Jmer1115/Proyecto-/assets/109985514/cdb82970-9d5c-406d-a312-4deb35fab625)
+
+## UI Botones y fondos:
+![Botón atrás](https://github.com/Jmer1115/Proyecto-/assets/109985514/2451c0bb-2d23-4968-a5eb-3bce62844832)   ![BotónAtrásNegro](https://github.com/Jmer1115/Proyecto-/assets/109985514/20d3c68a-b9d8-40c1-93e0-141a99d32aa3)
+
+![Jugar](https://github.com/Jmer1115/Proyecto-/assets/109985514/246eb6c6-fec9-4305-bb69-06c4dd872b0a) ![Salir](https://github.com/Jmer1115/Proyecto-/assets/109985514/e4326df8-7384-42f6-897b-7ddb328a633f)
+
+![letrero](https://github.com/Jmer1115/Proyecto-/assets/109985514/0dc296db-48a0-4abd-aa28-9a2dd3096cdb)
+
+![FondoMenu](https://github.com/Jmer1115/Proyecto-/assets/109985514/53dd17de-db80-4c11-8e1d-e0a21a0c238c)
+
+
+## Props: 
+![moneda](https://github.com/Jmer1115/Proyecto-/assets/109985514/d7103d6b-8e4d-41f7-bea2-d6fdc6995782) ![Plataforma1](https://github.com/Jmer1115/Proyecto-/assets/109985514/e26602ca-c2cb-476f-abbe-07f291bbb851) ![Plataforma2](https://github.com/Jmer1115/Proyecto-/assets/109985514/29be55f6-f1e2-45c1-a0e4-b6435b4e1105)
+
+
+## Enemigos: 
+![Enemigo1](https://github.com/Jmer1115/Proyecto-/assets/109985514/77088553-40bb-49ee-b73c-0a8adedec2cb)
+
