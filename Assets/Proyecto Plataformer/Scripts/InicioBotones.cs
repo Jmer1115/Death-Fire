@@ -10,7 +10,22 @@ public class InicioBotones : MonoBehaviour
     
     public void BotonJugar()
     {
-        MMSceneLoadingManager.LoadScene("Nivel 1");
+        MMSceneLoadingManager.LoadScene("Dificultad");
+    }
+
+    public void BotonModoFacil()
+    {
+        MMSceneLoadingManager.LoadScene("Nivel 1_Facil");
+    }
+
+    public void BotonModoMedio()
+    {
+        MMSceneLoadingManager.LoadScene("Nivel 1_Medio");
+    }
+
+    public void BotonModoDificil()
+    {
+        MMSceneLoadingManager.LoadScene("Nivel 1_Dificil");
     }
 
     public void BotonSalir()

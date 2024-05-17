@@ -1,10 +1,11 @@
 using MoreMountains.CorgiEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AutoScrollCoroutine : MonoBehaviour
+public class AutoScrollCoroutine : CambiarNivel
 {
     public float scrollSpeed = 2f;
     public Vector2 directionBounds = new Vector2(1, 1);
@@ -46,7 +47,7 @@ public class AutoScrollCoroutine : MonoBehaviour
         {
             if (salud_personaje.CurrentHealth <= 0f)
             {
-                SceneManager.LoadScene("Nivel 3");
+                OnCambiarDeNivel();
                 break;
             }
             if (transform.position.y > 52)

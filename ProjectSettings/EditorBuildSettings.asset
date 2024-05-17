@@ -234,21 +234,48 @@ EditorBuildSettings:
     path: Assets/Proyecto Plataformer/Escenas/Inicio.unity
     guid: fa1d8a2e5ac24e844975124c1994e09e
   - enabled: 1
-    path: Assets/Proyecto Plataformer/Escenas/Nivel 1.unity
+    path: Assets/Proyecto Plataformer/Escenas/Facil/Nivel 1_Facil.unity
+    guid: 41aa747e354204b4fbcf6ee0503d75b7
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Facil/Nivel 2_Facil.unity
+    guid: 920abda78e79f6e43bd2ca097d1c395b
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Facil/Nivel 3_Facil.unity
+    guid: 6b0f5d5742b709a4591b77c5a71eb974
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Facil/Final_Facil.unity
+    guid: cdb43f1a5c4250c4080450337e25c3a7
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Medio/Nivel 1_Medio.unity
     guid: 74980c0835489e44f9bc7023e196feb7
   - enabled: 1
-    path: Assets/Proyecto Plataformer/Escenas/Nivel 2.unity
+    path: Assets/Proyecto Plataformer/Escenas/Medio/Nivel 2_Medio.unity
     guid: b60caab728cc21c488b4af55d93c7bb0
   - enabled: 1
-    path: Assets/Proyecto Plataformer/Escenas/Nivel 3.unity
+    path: Assets/Proyecto Plataformer/Escenas/Medio/Nivel 3_Medio.unity
     guid: 499c9f3014135c74ca61a291c55d7b17
   - enabled: 1
-    path: Assets/Proyecto Plataformer/Escenas/Final.unity
-    guid: 6b5738b6dadd4ad409188050bbafef51
+    path: Assets/Proyecto Plataformer/Escenas/Medio/Final_Medio.unity
+    guid: f47e433650b530447b70df81914b6b0d
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Dificil/Nivel 1_Dificil.unity
+    guid: 25e8609cc2f74c746aad756c6f60a1f0
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Dificil/Nivel 2_Dificil.unity
+    guid: cd552228670605a4086dda7471fe173b
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Dificil/Nivel 3_Dificil.unity
+    guid: a59c07af2a38010469718c74291a2531
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Dificil/Final_Dificil.unity
+    guid: 0c3bc01d8869bc54995e537b83ba677a
   - enabled: 1
     path: Assets/Proyecto Plataformer/Escenas/Logros.unity
     guid: d6ed8a023c5e39a478a7bc1dd2d8d1e6
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
+  - enabled: 1
+    path: Assets/Proyecto Plataformer/Escenas/Dificultad.unity
+    guid: 320bb272a44bac14aa7a783d1db69b81
   m_configObjects: {}
