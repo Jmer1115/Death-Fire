@@ -1833,13 +1833,12 @@ MonoBehaviour:
   ActivableMoreThanOnce: 1
   InactiveTime: 2
   Dialogue:
-  - 'Diablos como me gusta el rapero 50 cent
+  - 'Es momento de tomar mi venganza
 
-    o como lo conoven en venezuela:
+    y debo tener cuidado con los
 
-
-    129488322140
-    Bolivares'
+    peligros
+    de este infierno.'
 --- !u!61 &412896501
 BoxCollider2D:
   m_ObjectHideFlags: 0

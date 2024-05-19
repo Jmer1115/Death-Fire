@@ -315,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 1869267178933692348, guid: 57b0f9cc49b89e349a437c0aa0161d3b,
         type: 3}
       propertyPath: Speed
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1869267178933692349, guid: 57b0f9cc49b89e349a437c0aa0161d3b,
         type: 3}
@@ -807,7 +807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: TimeBeforeFall
-      value: 0.03
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
@@ -1063,7 +1063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: TimeBeforeFall
-      value: 0.03
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
@@ -2097,7 +2097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: TimeBeforeFall
-      value: 0.03
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
@@ -2197,7 +2197,7 @@ PrefabInstance:
     - target: {fileID: 1869267178933692348, guid: 57b0f9cc49b89e349a437c0aa0161d3b,
         type: 3}
       propertyPath: Speed
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1869267178933692349, guid: 57b0f9cc49b89e349a437c0aa0161d3b,
         type: 3}
@@ -2313,7 +2313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: TimeBeforeFall
-      value: 0.03
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
@@ -3208,7 +3208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: TimeBeforeFall
-      value: 0.03
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
@@ -3717,7 +3717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63bd98cb2c4c2cb4886275cf0d37cc22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 2
+  scrollSpeed: 1
   directionBounds: {x: 0, y: 1}
   startDelay: 2
 --- !u!114 &1395641263
@@ -4314,7 +4314,7 @@ PrefabInstance:
     - target: {fileID: 1869267178933692348, guid: 57b0f9cc49b89e349a437c0aa0161d3b,
         type: 3}
       propertyPath: Speed
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1869267178933692349, guid: 57b0f9cc49b89e349a437c0aa0161d3b,
         type: 3}
@@ -4609,7 +4609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: TimeBeforeFall
-      value: 0.03
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
@@ -4891,7 +4891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: TimeBeforeFall
-      value: 0.03
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite

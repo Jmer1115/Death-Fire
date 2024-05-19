@@ -292,6 +292,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.8
       objectReference: {fileID: 0}
+    - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
+      propertyPath: TimeBeforeFall
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -668,6 +672,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.8
       objectReference: {fileID: 0}
+    - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
+      propertyPath: TimeBeforeFall
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1018,6 +1026,10 @@ PrefabInstance:
     - target: {fileID: 6148870, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
+      propertyPath: TimeBeforeFall
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
@@ -1379,6 +1391,11 @@ PrefabInstance:
     - target: {fileID: 4040829436048754, guid: 33bac419acdc16247b9e86101ec4172b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114755181189887628, guid: 33bac419acdc16247b9e86101ec4172b,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1833,13 +1850,12 @@ MonoBehaviour:
   ActivableMoreThanOnce: 1
   InactiveTime: 2
   Dialogue:
-  - 'Diablos como me gusta el rapero 50 cent
+  - 'Es momento de tomar mi venganza
 
-    o como lo conoven en venezuela:
+    y debo tener cuidado con los
 
-
-    129488322140
-    Bolivares'
+    peligros
+    de este infierno.'
 --- !u!61 &412896501
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1914,6 +1930,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 22048993901063673, guid: dbc72983f6ee7094b8f5eccd6db942b4,
+        type: 3}
+      propertyPath: Radius
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 263533870505500434, guid: dbc72983f6ee7094b8f5eccd6db942b4,
         type: 3}
       propertyPath: m_Name
@@ -1968,6 +1989,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292035000840416265, guid: dbc72983f6ee7094b8f5eccd6db942b4,
+        type: 3}
+      propertyPath: FlySpeed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2502,7 +2528,7 @@ PrefabInstance:
     - target: {fileID: 8147841980148399483, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
       propertyPath: TimeBetweenUses
-      value: 2.5
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 8147841980927431024, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
@@ -2702,7 +2728,7 @@ PrefabInstance:
     - target: {fileID: 1869267178933692348, guid: 490b2a8ab03787f47aff06d0cd533da9,
         type: 3}
       propertyPath: Speed
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1869267178933692349, guid: 490b2a8ab03787f47aff06d0cd533da9,
         type: 3}
@@ -2750,7 +2776,7 @@ PrefabInstance:
     - target: {fileID: 8147841980148399483, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
       propertyPath: TimeBetweenUses
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8147841980927431024, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
@@ -5174,6 +5200,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114755181189887628, guid: 33bac419acdc16247b9e86101ec4172b,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5401,7 +5432,7 @@ PrefabInstance:
     - target: {fileID: 8147841980148399483, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
       propertyPath: TimeBetweenUses
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8147841980927431024, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
@@ -6093,6 +6124,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114755181189887628, guid: 33bac419acdc16247b9e86101ec4172b,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6426,7 +6462,7 @@ PrefabInstance:
     - target: {fileID: 8147841980148399483, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
       propertyPath: TimeBetweenUses
-      value: 0.7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8147841980927431024, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
@@ -6559,7 +6595,7 @@ PrefabInstance:
     - target: {fileID: 1869267178933692348, guid: 490b2a8ab03787f47aff06d0cd533da9,
         type: 3}
       propertyPath: Speed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1869267178933692349, guid: 490b2a8ab03787f47aff06d0cd533da9,
         type: 3}
@@ -6837,6 +6873,11 @@ PrefabInstance:
       propertyPath: SpawnPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8147841980148399483, guid: 766082fbbaac5584c9ec214442990d9b,
+        type: 3}
+      propertyPath: TimeBetweenUses
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8147841980927431024, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -7006,7 +7047,7 @@ PrefabInstance:
     - target: {fileID: 8147841980148399483, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
       propertyPath: TimeBetweenUses
-      value: 0.8
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8147841980927431024, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
@@ -7469,6 +7510,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1869267178933692348, guid: 490b2a8ab03787f47aff06d0cd533da9,
+        type: 3}
+      propertyPath: Speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1869267178933692349, guid: 490b2a8ab03787f47aff06d0cd533da9,
         type: 3}
       propertyPath: m_Name
@@ -7654,7 +7700,7 @@ PrefabInstance:
     - target: {fileID: 8147841980148399483, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
       propertyPath: TimeBetweenUses
-      value: 0.7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8147841980927431024, guid: 766082fbbaac5584c9ec214442990d9b,
         type: 3}
@@ -8516,6 +8562,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.8
       objectReference: {fileID: 0}
+    - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
+      propertyPath: TimeBeforeFall
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8550,6 +8600,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1989841562951427306, guid: e789c3ece74bed349adee9405861e0d3,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4758170754943368990, guid: e789c3ece74bed349adee9405861e0d3,
         type: 3}
       propertyPath: m_Name
@@ -8734,7 +8789,7 @@ PrefabInstance:
     - target: {fileID: 1869267178933692348, guid: 490b2a8ab03787f47aff06d0cd533da9,
         type: 3}
       propertyPath: Speed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1869267178933692349, guid: 490b2a8ab03787f47aff06d0cd533da9,
         type: 3}
@@ -8833,6 +8888,10 @@ PrefabInstance:
     - target: {fileID: 6148870, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488084, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
+      propertyPath: TimeBeforeFall
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 21205004, guid: eb0e9537ba7244b44928850999ee5223, type: 3}
       propertyPath: m_Sprite
@@ -9639,6 +9698,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560911040292080622, guid: d24de32195c4d1e409240fb762e3a78e,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
