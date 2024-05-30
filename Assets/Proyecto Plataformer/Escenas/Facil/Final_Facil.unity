@@ -1320,12 +1320,32 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114053439384783086, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MaxDamageCaused
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114053439384783086, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MinDamageCaused
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 114103840203921412, guid: c20ae06fb502bc64e8c39fe71da9693b,
         type: 3}
       propertyPath: InitialHealth
       value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 114103840203921412, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MaximumHealth
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 114159736205905394, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: InitialHealth
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 114159736205905394, guid: c20ae06fb502bc64e8c39fe71da9693b,
         type: 3}
       propertyPath: MaximumHealth
       value: 40

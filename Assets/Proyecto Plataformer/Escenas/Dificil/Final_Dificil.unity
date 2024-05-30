@@ -1472,10 +1472,60 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114103840203921412, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: InitialHealth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 114103840203921412, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MaximumHealth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 114159736205905394, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: InitialHealth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 114159736205905394, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MaximumHealth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 114187152783374216, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MaxDamageCaused
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114187152783374216, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MinDamageCaused
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 114295542709052042, guid: c20ae06fb502bc64e8c39fe71da9693b,
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114295542709052042, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: InitialHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 114295542709052042, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MaximumHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 114530659431477320, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MaxDamageCaused
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114530659431477320, guid: c20ae06fb502bc64e8c39fe71da9693b,
+        type: 3}
+      propertyPath: MinDamageCaused
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
