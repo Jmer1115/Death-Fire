@@ -10,6 +10,6 @@ h2 {
     color: orange; /* naranja */
 }
 
-p {
+p, ul, li {
     color: white; /* texto blanco */
 }
