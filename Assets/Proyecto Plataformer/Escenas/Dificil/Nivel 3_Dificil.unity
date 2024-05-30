@@ -924,6 +924,7 @@ MonoBehaviour:
   scrollSpeed: 2.7
   directionBounds: {x: 3, y: 1}
   startDelay: 2
+  nombreNivel: Nivel 3_Dificil
 --- !u!65 &213527049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4714,8 +4715,8 @@ Transform:
   m_GameObject: {fileID: 1395641259}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 77.5, y: -67.61, z: 14.468771}
-  m_LocalScale: {x: 7.6641707, y: 10.5789995, z: 1}
+  m_LocalPosition: {x: 87.5563, y: -67.61, z: 14.468771}
+  m_LocalScale: {x: 8.34245, y: 10.5789995, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 706657426}
@@ -4735,6 +4736,7 @@ MonoBehaviour:
   scrollSpeed: 2.7
   directionBounds: {x: 0, y: 1}
   startDelay: 2
+  nombreNivel: Nivel 3_Dificil
 --- !u!114 &1395641263
 MonoBehaviour:
   m_ObjectHideFlags: 0

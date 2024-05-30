@@ -828,6 +828,7 @@ MonoBehaviour:
   scrollSpeed: 2
   directionBounds: {x: 3, y: 1}
   startDelay: 2
+  nombreNivel: Nivel 3_Medio
 --- !u!65 &213527049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4108,6 +4109,7 @@ MonoBehaviour:
   scrollSpeed: 2
   directionBounds: {x: 0, y: 1}
   startDelay: 2
+  nombreNivel: Nivel 3_Medio
 --- !u!114 &1395641263
 MonoBehaviour:
   m_ObjectHideFlags: 0

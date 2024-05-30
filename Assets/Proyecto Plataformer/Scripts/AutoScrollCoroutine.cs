@@ -10,6 +10,7 @@ public class AutoScrollCoroutine : CambiarNivel
     public float scrollSpeed = 2f;
     public Vector2 directionBounds = new Vector2(1, 1);
     public float startDelay = 4f;
+    public string nombreNivel;
 
     static private Vector3 startPosition;
 
@@ -47,7 +48,7 @@ public class AutoScrollCoroutine : CambiarNivel
         {
             if (salud_personaje.CurrentHealth <= 0f)
             {
-                OnCambiarDeNivel();
+                SceneManager.LoadScene(nombreNivel);
                 break;
             }
             if (transform.position.y > 52)
