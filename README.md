@@ -71,3 +71,6 @@ Otra propuesta para la dificultad, es tener diferentes escenas para las distinta
 ## Enemigos: 
 ![Enemigo1](https://github.com/Jmer1115/Proyecto-/assets/109985514/77088553-40bb-49ee-b73c-0a8adedec2cb)
 
+# Gracias
+
+
